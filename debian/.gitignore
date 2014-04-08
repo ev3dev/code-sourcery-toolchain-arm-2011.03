@@ -1,0 +1,4 @@
+code-sourcery-toolchain-arm-2011.03/
+*.debhelper.log
+*.substvars
+files
