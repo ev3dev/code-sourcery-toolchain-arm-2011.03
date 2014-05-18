@@ -1,3 +1,9 @@
+code-sourcery-toolchain-arm-2011.03 (42.1) stable; urgency=medium
+
+  * Add dependency on libc6-i386
+
+ -- David Lechner <david@lechnology.com>  Sat, 17 May 2014 17:38:00 -0500
+
 code-sourcery-toolchain-arm-2011.03 (42) unstable; urgency=low
 
   * Initial Release.

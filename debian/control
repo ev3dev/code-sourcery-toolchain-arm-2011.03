@@ -3,14 +3,14 @@ Section: devel
 Priority: extra
 Maintainer: David Lechner <david@lechnology.com>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: 
 Vcs-Git: git://github.com/ev3dev-dpkg/code-sourcery-toolchain-arm-2011.03.git
 Vcs-Browser: http://github.com/ev3dev-dpkg/code-sourcery-toolchain-arm-2011.03
 
 Package: code-sourcery-toolchain-arm-2011.03
-Architecture: any
-Depends: ${misc:Depends}
+Architecture: amd64
+Depends: ${misc:Depends}, libc6-i386
 Description: Downloads and installs cross-build toolchain from code sourcery.
  Code Sourcery toolchains contain propritary code and cannot be redistributed.
  So, this package just downloads and install it automatically.
